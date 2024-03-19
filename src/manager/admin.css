@@ -1,0 +1,86 @@
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0 auto;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 20px 32px;
+  background-color: #898989 !important;
+  color: white !important;
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin-bottom: 5px;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.form-container input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+}
+
+.card-fix {
+  height: 100%;
+  filter: brightness(80%);
+}
+
+.card-body_fix {
+  margin-top: auto;
+  flex: none;
+}
+
+.btn-form {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.btn-form button {
+  flex: 1;
+}
+.btn-form button:last-child {
+  margin-right: 0;
+}
+
+.product-card-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
